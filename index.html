@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yann Letertre - Freelance Web Developer specializing in modern, responsive web development and digital consulting services."
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <link href="style.css" rel="stylesheet" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#hero" class="header__nav-links"
+              ><img
+                src="img/77009753.jpg"
+                alt="Avatar"
+                class="header__nav-avatar"
+            /></a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#about" class="header__nav-links">ABOUT ME</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#services" class="header__nav-links">SERVICES</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#contact" class="header__nav-links">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section id="hero" class="hero">
+        <div id="particles-js">
+          <div class="hero__content">
+            <h1 class="hero__name hero__name--firstname">YANN</h1>
+            <h1 class="hero__name hero__name--lastname">LETERTRE</h1>
+            <p class="hero__subtitle">Freelance Web Developer</p>
+            <div class="hero__logos">
+              <img
+                src="img/HTML5_logo_and_wordmark2.svg.png"
+                alt="HTML5 logo"
+                class="hero__logo"
+              />
+              <img
+                src="img/CSS3_logo_and_wordmark.svg.png"
+                alt="CSS3 logo"
+                class="hero__logo"
+              />
+              <img
+                src="img/170px-Javascript-shield.svg.png"
+                alt="JavaScript logo"
+                class="hero__logo"
+              />
+              <img src="img/Ruby.webp" alt="Ruby logo" class="hero__logo" />
+              <img src="img/Rails.png" alt="Rails logo" class="hero__logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About section -->
+      <section id="about" class="about">
+        <div class="about__content">
+          <img src="img/77009753.jpg" alt="Avatar" class="about__avatar" />
+          <div class="about__text">
+            <p>
+              I learned the basics of Ruby, HTML, CSS, Ruby on Rails, SQL, UI &
+              UX design, and Agile methodologies (Scrum, Kanban) at Le Wagon
+              bootcamp.
+            </p>
+            <br />
+            <p>I am now focused on deepening my knowledge of JavaScript.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Services section -->
+      <section id="services" class="services">
+        <div class="services__content">
+          <div class="services__webdev">
+            <h2>Web Development Skills</h2>
+            <div class="services__webdev-content">
+              <img
+                src="img/webdevImgAI.webp"
+                alt="webdev img"
+                class="webdev__img"
+              />
+              <p>
+                I specialize in building modern, responsive websites, focusing
+                on user experience and performance.
+              </p>
+            </div>
+          </div>
+          <div class="services__consulting">
+            <h2>Digital Consulting Services</h2>
+            <div class="services__consulting-content">
+              <img
+                src="img/consultingImgAI.webp"
+                alt="consulting img"
+                class="consulting__img"
+              />
+              <p>
+                I offer consulting services for creating websites and developing
+                a strong digital identity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact section-->
+      <section id="contact" class="contact">
+        <div class="contact__item contact__item--github">
+          <a href="https://github.com/Qquazld" target="_blank">
+            <img
+              src="img/github-mark-white.png"
+              alt="Github Icon"
+              class="contact__icon"
+            />
+          </a>
+          <p class="contact__text">Github</p>
+        </div>
+        <div class="contact__item contact__item--mail">
+          <a href="mailto:yannletertre10@gmail.com">
+            <img src="img/e-mail.png" alt="Email Icon" class="contact__icon" />
+          </a>
+          <p class="contact__text">Mail</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small class="footer__text"
+        >Made with <span class="footer__icon--heart">❤️</span> by Yann Letertre
+        <br />
+        © 2024</small
+      >
+    </footer>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
